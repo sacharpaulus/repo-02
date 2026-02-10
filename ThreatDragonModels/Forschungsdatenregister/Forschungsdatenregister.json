@@ -17,9 +17,542 @@
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "version": "2.5.0",
         "cells": []
+      },
+      {
+        "id": 1,
+        "title": "New CIA diagram",
+        "diagramType": "CIA",
+        "placeholder": "New CIA diagram description",
+        "thumbnail": "./public/content/images/thumbnail.cia.jpg",
+        "version": "2.5.0",
+        "cells": [
+          {
+            "position": {
+              "x": -140,
+              "y": 620
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Vertrauensstelle\n"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "8c526799-2642-4896-b1d5-87e6a6b17d7c"
+                },
+                {
+                  "group": "right",
+                  "id": "b85890c7-92df-44f0-81a6-6e79617101d3"
+                },
+                {
+                  "group": "bottom",
+                  "id": "ccbc93b4-353f-4458-b84b-5d56a0bbf9aa"
+                },
+                {
+                  "group": "left",
+                  "id": "4e4a5e72-a8f5-48ec-be0f-d4a5c3b3e081"
+                }
+              ]
+            },
+            "id": "063edf18-ddfe-4761-8b84-5acb6245846c",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Vertrauensstelle\n",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 350,
+              "y": -233
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Vertrauensstelle"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "8c526799-2642-4896-b1d5-87e6a6b17d7c"
+                },
+                {
+                  "group": "right",
+                  "id": "b85890c7-92df-44f0-81a6-6e79617101d3"
+                },
+                {
+                  "group": "bottom",
+                  "id": "ccbc93b4-353f-4458-b84b-5d56a0bbf9aa"
+                },
+                {
+                  "group": "left",
+                  "id": "4e4a5e72-a8f5-48ec-be0f-d4a5c3b3e081"
+                }
+              ]
+            },
+            "id": "a9c071ce-6a61-43ba-84cb-f822f8f9ee6f",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Vertrauensstelle",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 150,
+              "y": -233
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Datenerhebung"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "8c526799-2642-4896-b1d5-87e6a6b17d7c"
+                },
+                {
+                  "group": "right",
+                  "id": "b85890c7-92df-44f0-81a6-6e79617101d3"
+                },
+                {
+                  "group": "bottom",
+                  "id": "ccbc93b4-353f-4458-b84b-5d56a0bbf9aa"
+                },
+                {
+                  "group": "left",
+                  "id": "4e4a5e72-a8f5-48ec-be0f-d4a5c3b3e081"
+                }
+              ]
+            },
+            "id": "7e16ccdd-8ad4-4cf3-aa6d-8d32e49bc1c9",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Datenerhebung",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 580,
+              "y": -233
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "User Management\n"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "8c526799-2642-4896-b1d5-87e6a6b17d7c"
+                },
+                {
+                  "group": "right",
+                  "id": "b85890c7-92df-44f0-81a6-6e79617101d3"
+                },
+                {
+                  "group": "bottom",
+                  "id": "ccbc93b4-353f-4458-b84b-5d56a0bbf9aa"
+                },
+                {
+                  "group": "left",
+                  "id": "4e4a5e72-a8f5-48ec-be0f-d4a5c3b3e081"
+                }
+              ]
+            },
+            "id": "ed65b731-e44d-493f-9195-6e6cad13677d",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Actor",
+              "name": "User Management\n",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "91fcda76-085a-48a9-8e1c-2f793a7ac457",
+            "source": {
+              "cell": "7e16ccdd-8ad4-4cf3-aa6d-8d32e49bc1c9",
+              "port": "b85890c7-92df-44f0-81a6-6e79617101d3"
+            },
+            "target": {
+              "cell": "a9c071ce-6a61-43ba-84cb-f822f8f9ee6f",
+              "port": "4e4a5e72-a8f5-48ec-be0f-d4a5c3b3e081"
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "New generic diagram",
+        "diagramType": "Generic",
+        "placeholder": "New generic diagram description",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "version": "2.5.0",
+        "cells": []
       }
     ],
-    "diagramTop": 1,
+    "diagramTop": 3,
     "reviewer": "",
     "threatTop": 0
   }
