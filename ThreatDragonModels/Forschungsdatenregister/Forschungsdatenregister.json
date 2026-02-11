@@ -10,15 +10,6 @@
     "contributors": [],
     "diagrams": [
       {
-        "id": 0,
-        "title": "New generic diagram",
-        "diagramType": "Generic",
-        "placeholder": "New generic diagram description",
-        "thumbnail": "./public/content/images/thumbnail.jpg",
-        "version": "2.5.0",
-        "cells": []
-      },
-      {
         "id": 1,
         "title": "New CIA diagram",
         "diagramType": "CIA",
@@ -2043,15 +2034,6 @@
             }
           }
         ]
-      },
-      {
-        "id": 2,
-        "title": "New generic diagram",
-        "diagramType": "Generic",
-        "placeholder": "New generic diagram description",
-        "thumbnail": "./public/content/images/thumbnail.jpg",
-        "version": "2.5.0",
-        "cells": []
       }
     ],
     "diagramTop": 3,
